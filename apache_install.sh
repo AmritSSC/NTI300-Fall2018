@@ -1,8 +1,5 @@
 man su
-yum install apache
-yum -y install apache httpd
-yum search apache
-systemctl enable http
+yum -y install httpd
 systemctl enable httpd
 systemctl start  httpd
 systemctl status  httpd
