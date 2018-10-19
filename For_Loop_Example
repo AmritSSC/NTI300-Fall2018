@@ -1,0 +1,4 @@
+!/bin/bash/
+for file in $(ls -p /etc/httpd/conf.d | grep -v / ); do	 # dollar sign defines the veriable
+ echo "backing up $file" cp $file $file.orig	# $file is the name of file
+done
