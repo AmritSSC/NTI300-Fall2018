@@ -1,0 +1,7 @@
+#!/bin/bash
+userPresence=$( grep -ic "$1" /etc/passwd );	#$1 is value passed in during script call
+if [ $userPresence -eq 1 ]; then #-eq is equal, -gt is greater than, -lt must be less than
+        echo "I found $1 matches: $userPresence";
+else
+        echo "I didn't find $1"
+fi #closes if statement
