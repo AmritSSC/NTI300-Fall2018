@@ -1,0 +1,11 @@
+#!/bin/bash
+
+yum install python-pip
+pip install virtualenv
+pip install --upgrade pip
+mkdir /opt/django
+cd /opt/django
+yum install python36
+virtualenv -p python36 django
+Source django/bin/activate
+pip install django
