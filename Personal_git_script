@@ -1,0 +1,11 @@
+#!/bin/bash
+
+yum -y install git;
+
+git clone https://github.com/AmritSSC/NTI300-Fall2018.git;
+
+git config --global -add user.name "Amrit Dahal";
+
+git config --global repo.name "New Repo 1";
+
+git config --global user.email "amrit.dahal@seattlecolleges.edu";
