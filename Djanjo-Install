@@ -13,4 +13,4 @@ pip install django
 django-admin --version
 chown -R amritd django
 sudo -u amritd  sh -c " source /opt/django/django/bin/activate && python manage.py runserver 0.0.0.0:8000&"
-sed "s/ALLOWED_HOSTS = []/ALLOWED_HOSTS = ['35.243.199.140']/g"
+
