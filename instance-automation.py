@@ -10,7 +10,7 @@ import json
 credentials = GoogleCredentials.get_application_default()
 compute = discovery.build('compute', 'v1', credentials=credentials)
 
-project = "create-instance1"
+project = "testproject1abc"
 zone = "us-east1-b"
 
 #type of machine requested and name for machine?
