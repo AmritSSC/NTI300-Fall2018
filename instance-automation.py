@@ -80,7 +80,7 @@ def create_instance(compute, project, zone, name):
       "http-server",
       "https-server"
       ]
-      }
+      },
     
     # Metadata is readable from the instance and allows you to
     # pass configuration from deployment scripts to instances.
