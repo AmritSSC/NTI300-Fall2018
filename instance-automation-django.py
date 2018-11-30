@@ -4,8 +4,11 @@ from oauth2client.client import GoogleCredentials
 from googleapiclient import discovery
 import pprint
 import json
+import time
 # import create_ldap
 # from create_ldap import create_instance
+
+time.sleep(60)
 
 credentials = GoogleCredentials.get_application_default()
 compute = discovery.build('compute', 'v1', credentials=credentials)
