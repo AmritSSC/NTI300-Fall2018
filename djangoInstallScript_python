@@ -2,7 +2,7 @@
 import os       #import os library
 import time
 
-time.sleep(60) #create a delay before running script
+time.sleep(180) #create a delay before running script 
 
 #define setup_install function
 def setup_install():
